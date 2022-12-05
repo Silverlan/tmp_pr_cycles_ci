@@ -16,7 +16,7 @@ pragma_install_lib_c("${PR_UNIRENDER_CYCLES_TBB_LIBRARY_PATH}/../bin/" "tbb" "${
 
 # Install OpenColorIO
 if(WIN32)
-    pragma_install_lib_c("${DEPENDENCY_OPENCOLORIO_LIBRARY}" "OpenColorIO_2_2" "${BINARY_OUTPUT_DIR}")
+    pragma_install_lib_c("${DEPENDENCY_OPENCOLORIO_LIBRARY}" "OpenColorIO_2_1" "${BINARY_OUTPUT_DIR}")
 else()
     pragma_install_lib_c("${DEPENDENCY_OPENCOLORIO_LIBRARY}" "OpenColorIO" "${BINARY_OUTPUT_DIR}")
 endif()
